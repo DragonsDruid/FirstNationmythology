@@ -2,16 +2,20 @@ body {
     color: aliceblue;
     background-color: black;
     font-family: "Kaushan Script", cursive;
+    font-size: x-large;
 }
 
 footer {
     background-color: rgba(0, 0, 139, 0.371);
 }
 
-h1 {
-    background-color: rgba(0, 0, 139, 0.371);
+header {
+    font-size: x-large;
 }
 
-#p1 {
-    font-style: oblique;
+img {
+    border-style: inset;
+    border-width: 10px;
+    border-color: rgba(0, 0, 139, 0.419);
+    padding: 5px;
 }
