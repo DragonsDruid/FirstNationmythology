@@ -1,3 +1,7 @@
+* {
+    text-align: center;
+}
+
 body {
     color: aliceblue;
     background-color: black;
@@ -11,6 +15,7 @@ footer {
 
 header {
     font-size: x-large;
+    background-color: rgba(0, 0, 139, 0.371);
 }
 
 img {
@@ -18,4 +23,15 @@ img {
     border-width: 10px;
     border-color: rgba(0, 0, 139, 0.419);
     padding: 5px;
+}
+
+/* I want to add a backround picture*/
+
+ul,ol,li {
+    text-align: left;
+    line-height: 120%;
+}
+
+a:hover {
+    text-decoration: underline;
 }
