@@ -3,6 +3,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
+    color: aliceblue;
 }
 
 * {
@@ -11,21 +12,21 @@ body {
     font-size: x-large;
 }
 
-body {
-    color: aliceblue;
-}
-
 footer {
     background-color: black;
+    border-style: outset;
+    border-color: rgb(0, 50, 50) ;
+
 }
 
 ul,ol,li {
     text-align: left;
-    background-color: rgb(0, 0, 0);
+    background-color: black;
     border-style: outset;
-    border: 1;
-    border-color: black;
+    border: 5;
+    border-color: rgb(0, 50, 50);
     padding: 5px;
+    text-shadow: 0px 0px 10px white;
 }
 
 p {
@@ -34,39 +35,54 @@ p {
     margin: 10px;
     border-style: outset;
     border: 1;
-    border-color: black;
+    border-color: rgb(0, 50, 50);
     padding: 5px;
+    text-shadow: 0px 0px 10px white;
 }
 
 img {
-    border-style: inset;
-    border-color: black;
-    border-width: 10px;
+    border-style: outset;
+    border-color:  rgb(0, 50, 50);
+    border-width: 5px;
 }
 
 h3,h2,h1 {
-    background-color: rgb(0, 5, 5);
     text-decoration: underline;
+    text-shadow: 0px 0px 10px white;
     border-style: outset;
     border: 1;
-    border-color: black;
-    padding: 5px;
+    border-color: rgb(0, 50, 50);
+    padding: -2px;
     font-size: xx-large;
-}
-
-a {
-    border-style: outset;
-    border-color: black;
-    margin: 10px;
-    padding: 5;
-    background-color: rgb(0, 50, 50);
-    font-size: large;
+    background-image: url(Images/7b4a96bc-3a00-44bc-be69-af45df845154.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
 }
 
 li {
-    background-color: rgb(0, 28, 28);
+    background-color: rgb(0, 50, 50);
 }
 
 title {
     font-size: xx-large;
+}
+
+ol,ul {
+    background-image: url(Images/7b4a96bc-3a00-44bc-be69-af45df845154.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+}
+
+a {
+    text-shadow: 0px 0px 10px white;
+    color: rgb(0, 162, 255);
+}
+
+.banner {
+    background-image: url(Images/sea-night-ocean-dark.jpg);
+    background-position: 0% 100%;
+    background-position: center;
+    background-position: fixed;
 }
